@@ -1,0 +1,38 @@
+Strategy pattern
+Obserable
+
+Duck simulation - v1
+	swim
+	quack
+MallardDuck, ReadheadDuck
+
+v2
+ fly - BUT not all ducks should fly
+ RubberDuck - will not fly
+ 
+v3
+swim / quack will have different behaviour  
+some ducks quack
+some ducks squeak
+
+v4
+we have some 500 ducks
+each duck will have a specific behaviour
+this behaviour will change very frequently
+
+change is the only constant in software design	
+maintenance nighmare
+
+inheritance is a bad choice in software design
+Favor compostion over inheritance
+
+Design principle: Identify the aspects/bahaviour of our app that 
+vary and separate them from what stays the same
+
+Take that varies and encapsulate it so that 
+it won't affect the rest of the code.
+
+Design principle: Program to an interface, not an implementation
+
+Strategy patterm: defines a family of algorithms, 
+encapsulate each one and make them interchangeable
